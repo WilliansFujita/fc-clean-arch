@@ -1,4 +1,3 @@
-import ProductRepositoryInterface from "../../../domain/product/repository/product-repository.interface";
 import CreateProductUseCase from "./create.product.usecase";
 
 const MockRepository = () => {
