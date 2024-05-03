@@ -26,6 +26,6 @@ describe('Update Product Use Case Unit Test', () => {
 
         const output = await usecase.execute(input)
 
-        expect(output).toBe(input)
+        expect(output).toEqual(input)
     })
 })
