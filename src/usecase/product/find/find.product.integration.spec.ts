@@ -8,7 +8,7 @@ import FindProductUseCase from "./find.product.usecase"
 describe('find product integration test', () => {
     let sequelize: Sequelize
 
-    beforeAll(async () => {
+    beforeEach(async () => {
         sequelize = new Sequelize({
             dialect: "sqlite",
             storage: ':memory:',
