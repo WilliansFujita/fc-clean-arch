@@ -16,7 +16,6 @@ export default class CreateProductUseCase{
         const product = ProductFactory.create(input.type,
             input.name, input.price)
 
-        if(product.notification.hasErrors())    
 
         await this.repository.create(product as Product);    
         return {
