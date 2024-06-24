@@ -25,7 +25,7 @@ describe("Product unit tests", () => {
 
     expect(
       ()=>{new Product("", "", 100)}
-    ).toThrow("Id is required,Product: Name is required")
+    ).toThrow("product: Id is required,product: Name is required")
   
   });
 
